@@ -1,3 +1,12 @@
+# Ignore everything
+*
+# Unignore directories
+!*/
+# Unignore all files with extensions
+!*.*
+# Unignore README (which does not have an extension)
+!README
+
 # Prerequisites
 *.d
 
@@ -41,6 +50,7 @@
 *.su
 *.idb
 *.pdb
+*.s
 
 # Kernel Module Compile Results
 *.mod*
